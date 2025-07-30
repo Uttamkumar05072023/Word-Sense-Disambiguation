@@ -2,6 +2,10 @@
 
 A modern web application built with Streamlit that helps users understand the specific meaning of words based on their context in sentences. This tool uses Natural Language Processing (NLP) techniques to disambiguate word senses.
 
+## Live Demo
+
+[Click here to access the live demo](https://word-sense-disambiguation.streamlit.app/)
+
 ## ✨ Features
 
 - **Modern Web Interface**: Beautiful, responsive design with gradient styling
@@ -34,7 +38,7 @@ A modern web application built with Streamlit that helps users understand the sp
 
 3. **Download NLTK data** (required for the first run)
    ```python
-   python -c "import nltk; nltk.download('punkt'); nltk.download('wordnet'); nltk.download('averaged_perceptron_tagger')"
+   python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('wordnet'); nltk.download('averaged_perceptron_tagger')"
    ```
 
 4. **Run the application**
