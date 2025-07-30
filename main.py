@@ -3,6 +3,7 @@ import nltk
 from nltk.wsd import lesk
 from nltk.tokenize import word_tokenize
 nltk.download("punkt")
+nltk.download('punkt_tab')
 nltk.download("wordnet")
 nltk.download("averaged_perceptron_tagger")
 
