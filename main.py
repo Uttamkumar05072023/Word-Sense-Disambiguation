@@ -1,6 +1,10 @@
 import streamlit as st
+import nltk
 from nltk.wsd import lesk
 from nltk.tokenize import word_tokenize
+nltk.download("punkt")
+nltk.download("wordnet")
+nltk.download("averaged_perceptron_tagger")
 
 # Page configuration
 st.set_page_config(
